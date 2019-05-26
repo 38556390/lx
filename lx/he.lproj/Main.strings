@@ -1,0 +1,30 @@
+
+/* Class = "UIButton"; normalTitle = "加密"; ObjectID = "9Av-V1-vND"; */
+"9Av-V1-vND.normalTitle" = "צפנה";
+
+/* Class = "UIButton"; normalTitle = "密令"; ObjectID = "BoB-N2-fjc"; */
+"BoB-N2-fjc.normalTitle" = "Chitian";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "MeE-RK-dp9"; */
+"MeE-RK-dp9.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "O97-ab-eNa"; */
+"O97-ab-eNa.text" = "Label";
+
+/* Class = "UIButton"; normalTitle = "解密"; ObjectID = "PCH-wd-0zC"; */
+"PCH-wd-0zC.normalTitle" = "פענח";
+
+/* Class = "UIButton"; normalTitle = "返回"; ObjectID = "Qbw-Yx-Lp0"; */
+"Qbw-Yx-Lp0.normalTitle" = "חזור";
+
+/* Class = "UIButton"; normalTitle = "设置"; ObjectID = "VZw-8S-ceI"; */
+"VZw-8S-ceI.normalTitle" = "More";
+
+/* Class = "UIButton"; normalTitle = "添加"; ObjectID = "W4G-hj-EtL"; */
+"W4G-hj-EtL.normalTitle" = "הוסיף ל";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "jRO-Jg-rHu"; */
+"jRO-Jg-rHu.text" = "Label";
+
+/* Class = "UIButton"; normalTitle = "分享"; ObjectID = "RnP-hb-eEz"; */
+"RnP-hb-eEz.normalTitle" = "שתף";

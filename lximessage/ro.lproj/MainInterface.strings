@@ -1,0 +1,30 @@
+
+/* Class = "UIButton"; normalTitle = "密令"; ObjectID = "Am8-k8-SGx"; */
+"Am8-k8-SGx.normalTitle" = "密令";
+
+/* Class = "UIButton"; normalTitle = "解密"; ObjectID = "FjA-9E-1Ft"; */
+"FjA-9E-1Ft.normalTitle" = "Decripta";
+
+/* Class = "UIButton"; normalTitle = "返回"; ObjectID = "Fjs-MR-aBa"; */
+"Fjs-MR-aBa.normalTitle" = "Reveni";
+
+/* Class = "UIButton"; normalTitle = "加密"; ObjectID = "HB1-Jo-Nh1"; */
+"HB1-Jo-Nh1.normalTitle" = "Criptare";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "JtZ-qI-TGg"; */
+"JtZ-qI-TGg.text" = "Label";
+
+/* Class = "UIButton"; normalTitle = "加密啦！！"; ObjectID = "NWj-D9-M1F"; */
+"NWj-D9-M1F.normalTitle" = "E criptată.！！";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "T9Y-2V-uZx"; */
+"T9Y-2V-uZx.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "kAW-0E-I7g"; */
+"kAW-0E-I7g.text" = "Label";
+
+/* Class = "UIButton"; normalTitle = "添加"; ObjectID = "nmu-cb-vz5"; */
+"nmu-cb-vz5.normalTitle" = "Adăuga la";
+
+/* Class = "UIButton"; normalTitle = "添加"; ObjectID = "rwQ-kg-Kvf"; */
+"rwQ-kg-Kvf.normalTitle" = "Adăuga la";
