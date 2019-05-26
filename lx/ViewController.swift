@@ -68,6 +68,7 @@ class ViewController: UIViewController,UIPickerViewDataSource,UIPickerViewDelega
             database.tableLampInsertItem(pxh: 100, sfmr: 1, kl: "wzloyxlxjmkl_20180709_slwovjekaocpr", bc: textstr1, cjsj: time, xgsj: time, bz1: 1,bz2: 0,bz3: 0,bz4:"",bz5: "",bz6: "",bz7: "",bz8: "",bz9: "",bz10: "")
             // 遍历列表（检查删除结果）
            // database.queryTableLamp()
+            nr!.text = "为体验最佳使用效果，请在iMessage上使用；超级密码需双防都在同一天设置相同口令才能互相解密切记"
         }
         
      //   var database: Database!
