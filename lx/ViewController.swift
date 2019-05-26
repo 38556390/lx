@@ -121,8 +121,8 @@ class ViewController: UIViewController,UIPickerViewDataSource,UIPickerViewDelega
         var textstr3="";
         if(getCurrentLanguage()=="cn")//如果是中文则显示中文否则全显示英文
         {
-            textstr1="设置";
-            textstr2="帮助";
+            textstr1="设置密码";
+            textstr2="帮助说明";
             textstr3="评价答疑";
             
         }
