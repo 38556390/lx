@@ -108,23 +108,25 @@ class ViewController: UIViewController,UIPickerViewDataSource,UIPickerViewDelega
         if tag == 0 {
             //frame 为整个popview相对整个屏幕的位置 arrowMargin ：指定箭头距离右边距离
            // popMenu = SwiftPopMenu(frame:  CGRect(x: KSCREEN_WIDTH - 222, y: 111, width: 130, height: 100), arrowMargin: 12)
-              popMenu = SwiftPopMenu(frame:  CGRect(x: KSCREEN_WIDTH - 155, y: 51, width: 150, height: 112), arrowMargin: 12)
+              popMenu = SwiftPopMenu(frame:  CGRect(x: KSCREEN_WIDTH - 155, y: 51, width: 150, height: 140), arrowMargin: 12)
             
             
         }else{
             //frame 为整个popview相对整个屏幕的位置 arrowMargin ：指定箭头距离右边距离
-            popMenu = SwiftPopMenu(frame:  CGRect(x: KSCREEN_WIDTH - 155, y: 51, width: 150, height: 112), arrowMargin: 12)
+            popMenu = SwiftPopMenu(frame:  CGRect(x: KSCREEN_WIDTH - 155, y: 51, width: 150, height: 140), arrowMargin: 12)
             
             
         }
         var textstr1="";//通用口令
         var textstr2="";
         var textstr3="";
+        var textstr4="";
         if(getCurrentLanguage()=="cn")//如果是中文则显示中文否则全显示英文
         {
             textstr1="设置密码";
             textstr2="帮助说明";
             textstr3="评价答疑";
+            textstr4="超级密码";
             
         }
         else
@@ -132,13 +134,15 @@ class ViewController: UIViewController,UIPickerViewDataSource,UIPickerViewDelega
             textstr1="Set";
             textstr2="Help";
             textstr3="Answers";
+            textstr4="Supper";
             
         }
         
         
         popMenu.popData = [(icon:"sezhi",title:textstr1),
                            (icon:"bangzhu",title:textstr2),
-                           (icon:"pingjia",title:textstr3)]
+                           (icon:"pingjia",title:textstr3),
+                           (icon:"pwd",title:textstr4)]
         //点击菜单
         popMenu.didSelectMenuBlock = { [weak self](index:Int)->Void in
             self?.popMenu.dismiss()
@@ -181,13 +185,93 @@ class ViewController: UIViewController,UIPickerViewDataSource,UIPickerViewDelega
                 }
             }
           
+            if (index==3) {
+                self?.setSupperPwd();
+             
+            }
             
             
         }
         popMenu.show()
         tag += 1
     }
-    
+    //添加超级密码
+    func setSupperPwd() -> Void {
+        var textstr1="";//第一个输入框
+        var textstr2="";//第二个输入框
+        var textstr3="";//确定
+        var textstr4="";//添加口令
+        var textstr5="";//请输入别名与口令
+        var textstr6="";//取消
+        
+        if(getCurrentLanguage()=="cn")//如果是中文则显示中文否则全显示英文
+        {
+            textstr1="用于显示的中文名称";
+            textstr2="用于加密数据的密码";
+            textstr3="确定";
+            textstr4="添加口令";
+            textstr5="请输入别名与口令";
+            textstr6="取消";
+        }
+        else
+        {
+            textstr1="The name to display";
+            textstr2="Encrypt password";
+            textstr3="Done";
+            textstr4="Add password";
+            textstr5="Please enter a name and password";
+            textstr6="Cancel";
+        }
+        //错误提示框
+        //SCLAlertView().showError("温馨提示", subTitle: "添加口令！")
+        let alert = SCLAlertView()
+        //添加第一个输入框
+        let textField1 = alert.addTextField(textstr1)
+        //添加第二个输入框
+        let textField2 = alert.addTextField(textstr2)
+        
+        textField2.isSecureTextEntry = true
+        alert.addButton(textstr3) {
+            // print(textField1.text!, textField2.text!)
+            var formatter = DateFormatter()
+            formatter.dateFormat = "yyyy-MM-dd"
+            let date = Date()
+            let stringDate: String = formatter.string(from: date)
+            var supperpwdint=685492;
+            var supperpwdint2=supperpwdint+198602*199408;
+            let lianjie=textField2.text!  + String(supperpwdint) + stringDate;
+            var superString="LX"+String(supperpwdint2).md5()+lianjie.md5();
+            textField2.text=superString.md5();
+            var mmjm=textField2.text?.md5();//密码加密
+            var database: Database!
+            //与数据库建立连接
+            database = Database()
+            let dateformatter = DateFormatter()
+            dateformatter.dateFormat = "YYYY-MM-dd HH:mm:ss"// 自定义时间格式
+            let time = dateformatter.string(from: Date())
+            
+            database.tableLampInsertItem(pxh: 10000, sfmr: 0, kl: mmjm!, bc: textField1.text!, cjsj: time, xgsj: time, bz1: 0,bz2: 0,bz3: 0,bz4:"",bz5: "",bz6: "",bz7: "",bz8: "",bz9: "",bz10: "")
+            
+            
+            
+            var textstr10="";//第一个输入框
+            
+            
+            if(self.getCurrentLanguage()=="cn")//如果是中文则显示中文否则全显示英文
+            {
+                textstr10="成功,可在iMessage中使用";
+                
+            }
+            else
+            {
+                textstr10="Success Can be used in iMessage";
+                
+            }
+            SCLAlertView().showInfo(textstr10)
+            
+        }
+        alert.showEdit(textstr4, subTitle: textstr5, closeButtonTitle: textstr6)
+    }
     //获取当前系统语言
     func getCurrentLanguage() -> String {
         // let defs = UserDefaults.standard
