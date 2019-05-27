@@ -8,9 +8,14 @@
 
 import UIKit
 import Messages
+//import CryptoSwift
+//import CryptoSwift
 import CryptoSwift
-import SQLite
 
+
+//import CommonCrypto
+//import SQLite
+import SQLite
 
 class MessagesViewController: MSMessagesAppViewController,UIPickerViewDataSource,UIPickerViewDelegate {
     var dataqj=[[String]]();//存放数据

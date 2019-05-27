@@ -50,20 +50,18 @@
 		2630627621107B6D00FD1E89 /* 7.png in Resources */ = {isa = PBXBuildFile; fileRef = 2630624B21107B6D00FD1E89 /* 7.png */; };
 		2630627721107B6D00FD1E89 /* 8.png in Resources */ = {isa = PBXBuildFile; fileRef = 2630624C21107B6D00FD1E89 /* 8.png */; };
 		2630627821107B6D00FD1E89 /* 9.png in Resources */ = {isa = PBXBuildFile; fileRef = 2630624D21107B6D00FD1E89 /* 9.png */; };
+		2664CE31229A968600BE3A0A /* CryptoSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2664CE24229A961D00BE3A0A /* CryptoSwift.framework */; };
+		2664CE32229A968600BE3A0A /* CryptoSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2664CE24229A961D00BE3A0A /* CryptoSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		2664CE4E229A977200BE3A0A /* SQLite.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2664CE41229A976400BE3A0A /* SQLite.framework */; };
+		2664CE4F229A977200BE3A0A /* SQLite.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2664CE41229A976400BE3A0A /* SQLite.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		2664CE5C229A981800BE3A0A /* SCLAlertView.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2664CE58229A980300BE3A0A /* SCLAlertView.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		2697B6D821926B3D007D765F /* SwiftPopMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2697B6C721926B3D007D765F /* SwiftPopMenu.swift */; };
 		2697B6DA2192786B007D765F /* bangzhu.png in Resources */ = {isa = PBXBuildFile; fileRef = 2697B6D92192786B007D765F /* bangzhu.png */; };
 		2697B6DC21927870007D765F /* pingjia.png in Resources */ = {isa = PBXBuildFile; fileRef = 2697B6DB21927870007D765F /* pingjia.png */; };
 		2697B6DE21927876007D765F /* sezhi.png in Resources */ = {isa = PBXBuildFile; fileRef = 2697B6DD21927876007D765F /* sezhi.png */; };
 		26A0B8A0210D9B22007B5A99 /* wPaperCell2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26A0B89F210D9B22007B5A99 /* wPaperCell2.swift */; };
 		26A0B8A4210D9CBF007B5A99 /* sz2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26A0B8A3210D9CBE007B5A99 /* sz2.swift */; };
-		26ADE031214DD2BF00012C12 /* CryptoSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26ADE028214DD29000012C12 /* CryptoSwift.framework */; };
-		26CAA51E229A21AC00D7ECE5 /* SQLite.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26CAA511229A21A000D7ECE5 /* SQLite.framework */; };
-		26CAA51F229A21AC00D7ECE5 /* SQLite.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 26CAA511229A21A000D7ECE5 /* SQLite.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		26CAA534229A21BE00D7ECE5 /* CryptoSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26CAA52B229A21B700D7ECE5 /* CryptoSwift.framework */; };
-		26CAA535229A21BE00D7ECE5 /* CryptoSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 26CAA52B229A21B700D7ECE5 /* CryptoSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		26CAA541229A21D000D7ECE5 /* SCLAlertView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26CAA53E229A21C700D7ECE5 /* SCLAlertView.framework */; };
-		26CAA542229A21D000D7ECE5 /* SCLAlertView.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 26CAA53E229A21C700D7ECE5 /* SCLAlertView.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		26CAA559229A517E00D7ECE5 /* pwd.png in Resources */ = {isa = PBXBuildFile; fileRef = 26CAA54D229A517E00D7ECE5 /* pwd.png */; };
+		26D47F83229A8E4E0068B209 /* pwd.png in Resources */ = {isa = PBXBuildFile; fileRef = 26D47F82229A8E4E0068B209 /* pwd.png */; };
 		26F9F008210D478900154ACE /* Messages.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26F9F007210D478900154ACE /* Messages.framework */; };
 		26F9F00B210D478900154ACE /* MessagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26F9F00A210D478900154ACE /* MessagesViewController.swift */; };
 		26F9F00E210D478900154ACE /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26F9F00C210D478900154ACE /* MainInterface.storyboard */; };
@@ -87,159 +85,159 @@
 			remoteGlobalIDString = 2605997820FB235A0053208E;
 			remoteInfo = lx;
 		};
-		26ADE027214DD29000012C12 /* PBXContainerItemProxy */ = {
+		2664CE23229A961D00BE3A0A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 26ADE01F214DD29000012C12 /* CryptoSwift.xcodeproj */;
+			containerPortal = 2664CE1B229A961D00BE3A0A /* CryptoSwift.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 754BE45519693E190098E6F3;
 			remoteInfo = CryptoSwift;
 		};
-		26ADE029214DD29000012C12 /* PBXContainerItemProxy */ = {
+		2664CE25229A961D00BE3A0A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 26ADE01F214DD29000012C12 /* CryptoSwift.xcodeproj */;
+			containerPortal = 2664CE1B229A961D00BE3A0A /* CryptoSwift.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 75211F92207249D8004E41F8;
 			remoteInfo = "CryptoSwift-TestHostApp";
 		};
-		26ADE02B214DD29000012C12 /* PBXContainerItemProxy */ = {
+		2664CE27229A961D00BE3A0A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 26ADE01F214DD29000012C12 /* CryptoSwift.xcodeproj */;
+			containerPortal = 2664CE1B229A961D00BE3A0A /* CryptoSwift.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 754BE46019693E190098E6F3;
 			remoteInfo = Tests;
 		};
-		26ADE02D214DD29000012C12 /* PBXContainerItemProxy */ = {
+		2664CE29229A961D00BE3A0A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 26ADE01F214DD29000012C12 /* CryptoSwift.xcodeproj */;
+			containerPortal = 2664CE1B229A961D00BE3A0A /* CryptoSwift.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 7595C14A2072E48C00EA1A5F;
 			remoteInfo = "TestsPerformance-Mac";
 		};
-		26ADE02F214DD29000012C12 /* PBXContainerItemProxy */ = {
+		2664CE2B229A961D00BE3A0A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 26ADE01F214DD29000012C12 /* CryptoSwift.xcodeproj */;
+			containerPortal = 2664CE1B229A961D00BE3A0A /* CryptoSwift.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 7564F0602072EAEB00CA5A96;
 			remoteInfo = "TestsPerformance-iOS";
 		};
-		26CAA510229A21A000D7ECE5 /* PBXContainerItemProxy */ = {
+		2664CE33229A968600BE3A0A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 26CAA506229A21A000D7ECE5 /* SQLite.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = EE247AD31C3F04ED00AE3E12;
-			remoteInfo = "SQLite iOS";
-		};
-		26CAA512229A21A000D7ECE5 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 26CAA506229A21A000D7ECE5 /* SQLite.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = EE247ADD1C3F04ED00AE3E12;
-			remoteInfo = "SQLiteTests iOS";
-		};
-		26CAA514229A21A000D7ECE5 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 26CAA506229A21A000D7ECE5 /* SQLite.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = EE247B3C1C3F3ED000AE3E12;
-			remoteInfo = "SQLite Mac";
-		};
-		26CAA516229A21A000D7ECE5 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 26CAA506229A21A000D7ECE5 /* SQLite.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = EE247B451C3F3ED000AE3E12;
-			remoteInfo = "SQLiteTests Mac";
-		};
-		26CAA518229A21A000D7ECE5 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 26CAA506229A21A000D7ECE5 /* SQLite.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 03A65E5A1C6BB0F50062603F;
-			remoteInfo = "SQLite tvOS";
-		};
-		26CAA51A229A21A000D7ECE5 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 26CAA506229A21A000D7ECE5 /* SQLite.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 03A65E631C6BB0F60062603F;
-			remoteInfo = "SQLiteTests tvOS";
-		};
-		26CAA51C229A21A000D7ECE5 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 26CAA506229A21A000D7ECE5 /* SQLite.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = A121AC451CA35C79005A31D1;
-			remoteInfo = "SQLite watchOS";
-		};
-		26CAA520229A21AC00D7ECE5 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 26CAA506229A21A000D7ECE5 /* SQLite.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = EE247AD21C3F04ED00AE3E12;
-			remoteInfo = "SQLite iOS";
-		};
-		26CAA52A229A21B700D7ECE5 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 26CAA522229A21B600D7ECE5 /* CryptoSwift.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 754BE45519693E190098E6F3;
-			remoteInfo = CryptoSwift;
-		};
-		26CAA52C229A21B700D7ECE5 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 26CAA522229A21B600D7ECE5 /* CryptoSwift.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 75211F92207249D8004E41F8;
-			remoteInfo = "CryptoSwift-TestHostApp";
-		};
-		26CAA52E229A21B700D7ECE5 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 26CAA522229A21B600D7ECE5 /* CryptoSwift.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 754BE46019693E190098E6F3;
-			remoteInfo = Tests;
-		};
-		26CAA530229A21B700D7ECE5 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 26CAA522229A21B600D7ECE5 /* CryptoSwift.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 7595C14A2072E48C00EA1A5F;
-			remoteInfo = "TestsPerformance-Mac";
-		};
-		26CAA532229A21B700D7ECE5 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 26CAA522229A21B600D7ECE5 /* CryptoSwift.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 7564F0602072EAEB00CA5A96;
-			remoteInfo = "TestsPerformance-iOS";
-		};
-		26CAA536229A21BE00D7ECE5 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 26CAA522229A21B600D7ECE5 /* CryptoSwift.xcodeproj */;
+			containerPortal = 2664CE1B229A961D00BE3A0A /* CryptoSwift.xcodeproj */;
 			proxyType = 1;
 			remoteGlobalIDString = 754BE45419693E190098E6F3;
 			remoteInfo = CryptoSwift;
 		};
-		26CAA53D229A21C700D7ECE5 /* PBXContainerItemProxy */ = {
+		2664CE40229A976400BE3A0A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 26CAA538229A21C600D7ECE5 /* SCLAlertView.xcodeproj */;
+			containerPortal = 2664CE36229A976400BE3A0A /* SQLite.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EE247AD31C3F04ED00AE3E12;
+			remoteInfo = "SQLite iOS";
+		};
+		2664CE42229A976400BE3A0A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2664CE36229A976400BE3A0A /* SQLite.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EE247ADD1C3F04ED00AE3E12;
+			remoteInfo = "SQLiteTests iOS";
+		};
+		2664CE44229A976400BE3A0A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2664CE36229A976400BE3A0A /* SQLite.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EE247B3C1C3F3ED000AE3E12;
+			remoteInfo = "SQLite Mac";
+		};
+		2664CE46229A976400BE3A0A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2664CE36229A976400BE3A0A /* SQLite.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EE247B451C3F3ED000AE3E12;
+			remoteInfo = "SQLiteTests Mac";
+		};
+		2664CE48229A976400BE3A0A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2664CE36229A976400BE3A0A /* SQLite.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 03A65E5A1C6BB0F50062603F;
+			remoteInfo = "SQLite tvOS";
+		};
+		2664CE4A229A976400BE3A0A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2664CE36229A976400BE3A0A /* SQLite.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 03A65E631C6BB0F60062603F;
+			remoteInfo = "SQLiteTests tvOS";
+		};
+		2664CE4C229A976400BE3A0A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2664CE36229A976400BE3A0A /* SQLite.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A121AC451CA35C79005A31D1;
+			remoteInfo = "SQLite watchOS";
+		};
+		2664CE50229A977200BE3A0A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2664CE36229A976400BE3A0A /* SQLite.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = EE247AD21C3F04ED00AE3E12;
+			remoteInfo = "SQLite iOS";
+		};
+		2664CE57229A980300BE3A0A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2664CE52229A980300BE3A0A /* SCLAlertView.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 70264EF71B0F588700B32B18;
 			remoteInfo = SCLAlertView;
 		};
-		26CAA53F229A21C700D7ECE5 /* PBXContainerItemProxy */ = {
+		2664CE59229A980300BE3A0A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 26CAA538229A21C600D7ECE5 /* SCLAlertView.xcodeproj */;
+			containerPortal = 2664CE52229A980300BE3A0A /* SCLAlertView.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 70264F021B0F588800B32B18;
 			remoteInfo = SCLAlertViewTests;
 		};
-		26CAA543229A21D000D7ECE5 /* PBXContainerItemProxy */ = {
+		2664CE5D229A981800BE3A0A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 26CAA538229A21C600D7ECE5 /* SCLAlertView.xcodeproj */;
+			containerPortal = 2664CE52229A980300BE3A0A /* SCLAlertView.xcodeproj */;
 			proxyType = 1;
 			remoteGlobalIDString = 70264EF61B0F588700B32B18;
 			remoteInfo = SCLAlertView;
+		};
+		2664CE67229A98F800BE3A0A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2664CE5F229A98F800BE3A0A /* CryptoSwift.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 754BE45519693E190098E6F3;
+			remoteInfo = CryptoSwift;
+		};
+		2664CE69229A98F800BE3A0A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2664CE5F229A98F800BE3A0A /* CryptoSwift.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 75211F92207249D8004E41F8;
+			remoteInfo = "CryptoSwift-TestHostApp";
+		};
+		2664CE6B229A98F800BE3A0A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2664CE5F229A98F800BE3A0A /* CryptoSwift.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 754BE46019693E190098E6F3;
+			remoteInfo = Tests;
+		};
+		2664CE6D229A98F800BE3A0A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2664CE5F229A98F800BE3A0A /* CryptoSwift.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 7595C14A2072E48C00EA1A5F;
+			remoteInfo = "TestsPerformance-Mac";
+		};
+		2664CE6F229A98F800BE3A0A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2664CE5F229A98F800BE3A0A /* CryptoSwift.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 7564F0602072EAEB00CA5A96;
+			remoteInfo = "TestsPerformance-iOS";
 		};
 		26F9F012210D478D00154ACE /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -251,15 +249,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		260599E120FB238E0053208E /* Embed Frameworks */ = {
+		2664CE35229A968700BE3A0A /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				26CAA51F229A21AC00D7ECE5 /* SQLite.framework in Embed Frameworks */,
-				26CAA535229A21BE00D7ECE5 /* CryptoSwift.framework in Embed Frameworks */,
-				26CAA542229A21D000D7ECE5 /* SCLAlertView.framework in Embed Frameworks */,
+				2664CE4F229A977200BE3A0A /* SQLite.framework in Embed Frameworks */,
+				2664CE32229A968600BE3A0A /* CryptoSwift.framework in Embed Frameworks */,
+				2664CE5C229A981800BE3A0A /* SCLAlertView.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -457,17 +455,17 @@
 		2640E7A3215A49C000FFF255 /* vi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = vi; path = vi.lproj/MainInterface.strings; sourceTree = "<group>"; };
 		2640E7A8215A74BC00FFF255 /* en-AL */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "en-AL"; path = "en-AL.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
 		2640E7A9215A74BC00FFF255 /* en-AL */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "en-AL"; path = "en-AL.lproj/MainInterface.strings"; sourceTree = "<group>"; };
+		2664CE1B229A961D00BE3A0A /* CryptoSwift.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = CryptoSwift.xcodeproj; path = "../CryptoSwift-master/CryptoSwift.xcodeproj"; sourceTree = "<group>"; };
+		2664CE36229A976400BE3A0A /* SQLite.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SQLite.xcodeproj; path = "../SQLite.swift-master/SQLite.xcodeproj"; sourceTree = "<group>"; };
+		2664CE52229A980300BE3A0A /* SCLAlertView.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SCLAlertView.xcodeproj; path = "../SCLAlertView-Swift-master/SCLAlertView.xcodeproj"; sourceTree = "<group>"; };
+		2664CE5F229A98F800BE3A0A /* CryptoSwift.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = CryptoSwift.xcodeproj; path = "../../CryptoSwift-master/CryptoSwift.xcodeproj"; sourceTree = "<group>"; };
 		2697B6C721926B3D007D765F /* SwiftPopMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftPopMenu.swift; sourceTree = "<group>"; };
 		2697B6D92192786B007D765F /* bangzhu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bangzhu.png; sourceTree = "<group>"; };
 		2697B6DB21927870007D765F /* pingjia.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pingjia.png; sourceTree = "<group>"; };
 		2697B6DD21927876007D765F /* sezhi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sezhi.png; sourceTree = "<group>"; };
 		26A0B89F210D9B22007B5A99 /* wPaperCell2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = wPaperCell2.swift; sourceTree = "<group>"; };
 		26A0B8A3210D9CBE007B5A99 /* sz2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = sz2.swift; sourceTree = "<group>"; };
-		26ADE01F214DD29000012C12 /* CryptoSwift.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = CryptoSwift.xcodeproj; path = "../../../灵馨加密/CryptoSwift-master/CryptoSwift.xcodeproj"; sourceTree = "<group>"; };
-		26CAA506229A21A000D7ECE5 /* SQLite.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SQLite.xcodeproj; path = "../SQLite.swift-master/SQLite.xcodeproj"; sourceTree = "<group>"; };
-		26CAA522229A21B600D7ECE5 /* CryptoSwift.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = CryptoSwift.xcodeproj; path = "../CryptoSwift-master/CryptoSwift.xcodeproj"; sourceTree = "<group>"; };
-		26CAA538229A21C600D7ECE5 /* SCLAlertView.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SCLAlertView.xcodeproj; path = "../SCLAlertView-Swift-master/SCLAlertView.xcodeproj"; sourceTree = "<group>"; };
-		26CAA54D229A517E00D7ECE5 /* pwd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pwd.png; path = ../../../pwd.png; sourceTree = "<group>"; };
+		26D47F82229A8E4E0068B209 /* pwd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pwd.png; path = ../../../../pwd.png; sourceTree = "<group>"; };
 		26F9F005210D478900154ACE /* lximessage.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = lximessage.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		26F9F007210D478900154ACE /* Messages.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Messages.framework; path = System/Library/Frameworks/Messages.framework; sourceTree = SDKROOT; };
 		26F9F00A210D478900154ACE /* MessagesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesViewController.swift; sourceTree = "<group>"; };
@@ -482,9 +480,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				26CAA51E229A21AC00D7ECE5 /* SQLite.framework in Frameworks */,
-				26CAA534229A21BE00D7ECE5 /* CryptoSwift.framework in Frameworks */,
-				26CAA541229A21D000D7ECE5 /* SCLAlertView.framework in Frameworks */,
+				2664CE4E229A977200BE3A0A /* SQLite.framework in Frameworks */,
+				2664CE31229A968600BE3A0A /* CryptoSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -506,7 +503,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				26ADE031214DD2BF00012C12 /* CryptoSwift.framework in Frameworks */,
 				26F9F008210D478900154ACE /* Messages.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -517,9 +513,9 @@
 		2605997020FB235A0053208E = {
 			isa = PBXGroup;
 			children = (
-				26CAA538229A21C600D7ECE5 /* SCLAlertView.xcodeproj */,
-				26CAA522229A21B600D7ECE5 /* CryptoSwift.xcodeproj */,
-				26CAA506229A21A000D7ECE5 /* SQLite.xcodeproj */,
+				2664CE52229A980300BE3A0A /* SCLAlertView.xcodeproj */,
+				2664CE36229A976400BE3A0A /* SQLite.xcodeproj */,
+				2664CE1B229A961D00BE3A0A /* CryptoSwift.xcodeproj */,
 				260599ED20FB27ED0053208E /* Database.swift */,
 				2605997B20FB235A0053208E /* lx */,
 				2605999020FB235B0053208E /* lxTests */,
@@ -544,7 +540,7 @@
 		2605997B20FB235A0053208E /* lx */ = {
 			isa = PBXGroup;
 			children = (
-				26CAA54D229A517E00D7ECE5 /* pwd.png */,
+				26D47F82229A8E4E0068B209 /* pwd.png */,
 				2697B6DD21927876007D765F /* sezhi.png */,
 				2697B6DB21927870007D765F /* pingjia.png */,
 				2697B6D92192786B007D765F /* bangzhu.png */,
@@ -620,49 +616,49 @@
 			path = typeimage;
 			sourceTree = "<group>";
 		};
-		26ADE020214DD29000012C12 /* Products */ = {
+		2664CE1C229A961D00BE3A0A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				26ADE028214DD29000012C12 /* CryptoSwift.framework */,
-				26ADE02A214DD29000012C12 /* CryptoSwift-TestHostApp.app */,
-				26ADE02C214DD29000012C12 /* Tests.xctest */,
-				26ADE02E214DD29000012C12 /* TestsPerformance-Mac.xctest */,
-				26ADE030214DD29000012C12 /* TestsPerformance-iOS.xctest */,
+				2664CE24229A961D00BE3A0A /* CryptoSwift.framework */,
+				2664CE26229A961D00BE3A0A /* CryptoSwift-TestHostApp.app */,
+				2664CE28229A961D00BE3A0A /* Tests.xctest */,
+				2664CE2A229A961D00BE3A0A /* TestsPerformance-Mac.xctest */,
+				2664CE2C229A961D00BE3A0A /* TestsPerformance-iOS.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		26CAA507229A21A000D7ECE5 /* Products */ = {
+		2664CE37229A976400BE3A0A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				26CAA511229A21A000D7ECE5 /* SQLite.framework */,
-				26CAA513229A21A000D7ECE5 /* SQLiteTests iOS.xctest */,
-				26CAA515229A21A000D7ECE5 /* SQLite.framework */,
-				26CAA517229A21A000D7ECE5 /* SQLiteTests Mac.xctest */,
-				26CAA519229A21A000D7ECE5 /* SQLite.framework */,
-				26CAA51B229A21A000D7ECE5 /* SQLiteTests tvOS.xctest */,
-				26CAA51D229A21A000D7ECE5 /* SQLite.framework */,
+				2664CE41229A976400BE3A0A /* SQLite.framework */,
+				2664CE43229A976400BE3A0A /* SQLiteTests iOS.xctest */,
+				2664CE45229A976400BE3A0A /* SQLite.framework */,
+				2664CE47229A976400BE3A0A /* SQLiteTests Mac.xctest */,
+				2664CE49229A976400BE3A0A /* SQLite.framework */,
+				2664CE4B229A976400BE3A0A /* SQLiteTests tvOS.xctest */,
+				2664CE4D229A976400BE3A0A /* SQLite.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		26CAA523229A21B600D7ECE5 /* Products */ = {
+		2664CE53229A980300BE3A0A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				26CAA52B229A21B700D7ECE5 /* CryptoSwift.framework */,
-				26CAA52D229A21B700D7ECE5 /* CryptoSwift-TestHostApp.app */,
-				26CAA52F229A21B700D7ECE5 /* Tests.xctest */,
-				26CAA531229A21B700D7ECE5 /* TestsPerformance-Mac.xctest */,
-				26CAA533229A21B700D7ECE5 /* TestsPerformance-iOS.xctest */,
+				2664CE58229A980300BE3A0A /* SCLAlertView.framework */,
+				2664CE5A229A980300BE3A0A /* SCLAlertViewTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		26CAA539229A21C600D7ECE5 /* Products */ = {
+		2664CE60229A98F800BE3A0A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				26CAA53E229A21C700D7ECE5 /* SCLAlertView.framework */,
-				26CAA540229A21C700D7ECE5 /* SCLAlertViewTests.xctest */,
+				2664CE68229A98F800BE3A0A /* CryptoSwift.framework */,
+				2664CE6A229A98F800BE3A0A /* CryptoSwift-TestHostApp.app */,
+				2664CE6C229A98F800BE3A0A /* Tests.xctest */,
+				2664CE6E229A98F800BE3A0A /* TestsPerformance-Mac.xctest */,
+				2664CE70229A98F800BE3A0A /* TestsPerformance-iOS.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -678,7 +674,7 @@
 		26F9F009210D478900154ACE /* lximessage */ = {
 			isa = PBXGroup;
 			children = (
-				26ADE01F214DD29000012C12 /* CryptoSwift.xcodeproj */,
+				2664CE5F229A98F800BE3A0A /* CryptoSwift.xcodeproj */,
 				2630622D21107B6D00FD1E89 /* typeimage */,
 				2605A3F5210F31E00093DC5D /* lximessage.entitlements */,
 				26A0B8A3210D9CBE007B5A99 /* sz2.swift */,
@@ -702,16 +698,16 @@
 				2605997520FB235A0053208E /* Sources */,
 				2605997620FB235A0053208E /* Frameworks */,
 				2605997720FB235A0053208E /* Resources */,
-				260599E120FB238E0053208E /* Embed Frameworks */,
 				26F9F023210D478D00154ACE /* Embed App Extensions */,
+				2664CE35229A968700BE3A0A /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 				26F9F013210D478D00154ACE /* PBXTargetDependency */,
-				26CAA521229A21AC00D7ECE5 /* PBXTargetDependency */,
-				26CAA537229A21BE00D7ECE5 /* PBXTargetDependency */,
-				26CAA544229A21D000D7ECE5 /* PBXTargetDependency */,
+				2664CE34229A968600BE3A0A /* PBXTargetDependency */,
+				2664CE51229A977200BE3A0A /* PBXTargetDependency */,
+				2664CE5E229A981800BE3A0A /* PBXTargetDependency */,
 			);
 			name = lx;
 			productName = lx;
@@ -852,20 +848,20 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProductGroup = 26CAA523229A21B600D7ECE5 /* Products */;
-					ProjectRef = 26CAA522229A21B600D7ECE5 /* CryptoSwift.xcodeproj */;
+					ProductGroup = 2664CE60229A98F800BE3A0A /* Products */;
+					ProjectRef = 2664CE5F229A98F800BE3A0A /* CryptoSwift.xcodeproj */;
 				},
 				{
-					ProductGroup = 26ADE020214DD29000012C12 /* Products */;
-					ProjectRef = 26ADE01F214DD29000012C12 /* CryptoSwift.xcodeproj */;
+					ProductGroup = 2664CE1C229A961D00BE3A0A /* Products */;
+					ProjectRef = 2664CE1B229A961D00BE3A0A /* CryptoSwift.xcodeproj */;
 				},
 				{
-					ProductGroup = 26CAA539229A21C600D7ECE5 /* Products */;
-					ProjectRef = 26CAA538229A21C600D7ECE5 /* SCLAlertView.xcodeproj */;
+					ProductGroup = 2664CE53229A980300BE3A0A /* Products */;
+					ProjectRef = 2664CE52229A980300BE3A0A /* SCLAlertView.xcodeproj */;
 				},
 				{
-					ProductGroup = 26CAA507229A21A000D7ECE5 /* Products */;
-					ProjectRef = 26CAA506229A21A000D7ECE5 /* SQLite.xcodeproj */;
+					ProductGroup = 2664CE37229A976400BE3A0A /* Products */;
+					ProjectRef = 2664CE36229A976400BE3A0A /* SQLite.xcodeproj */;
 				},
 			);
 			projectRoot = "";
@@ -879,137 +875,137 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		26ADE028214DD29000012C12 /* CryptoSwift.framework */ = {
+		2664CE24229A961D00BE3A0A /* CryptoSwift.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
 			path = CryptoSwift.framework;
-			remoteRef = 26ADE027214DD29000012C12 /* PBXContainerItemProxy */;
+			remoteRef = 2664CE23229A961D00BE3A0A /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		26ADE02A214DD29000012C12 /* CryptoSwift-TestHostApp.app */ = {
+		2664CE26229A961D00BE3A0A /* CryptoSwift-TestHostApp.app */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.application;
 			path = "CryptoSwift-TestHostApp.app";
-			remoteRef = 26ADE029214DD29000012C12 /* PBXContainerItemProxy */;
+			remoteRef = 2664CE25229A961D00BE3A0A /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		26ADE02C214DD29000012C12 /* Tests.xctest */ = {
+		2664CE28229A961D00BE3A0A /* Tests.xctest */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.cfbundle;
 			path = Tests.xctest;
-			remoteRef = 26ADE02B214DD29000012C12 /* PBXContainerItemProxy */;
+			remoteRef = 2664CE27229A961D00BE3A0A /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		26ADE02E214DD29000012C12 /* TestsPerformance-Mac.xctest */ = {
+		2664CE2A229A961D00BE3A0A /* TestsPerformance-Mac.xctest */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.cfbundle;
 			path = "TestsPerformance-Mac.xctest";
-			remoteRef = 26ADE02D214DD29000012C12 /* PBXContainerItemProxy */;
+			remoteRef = 2664CE29229A961D00BE3A0A /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		26ADE030214DD29000012C12 /* TestsPerformance-iOS.xctest */ = {
+		2664CE2C229A961D00BE3A0A /* TestsPerformance-iOS.xctest */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.cfbundle;
 			path = "TestsPerformance-iOS.xctest";
-			remoteRef = 26ADE02F214DD29000012C12 /* PBXContainerItemProxy */;
+			remoteRef = 2664CE2B229A961D00BE3A0A /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		26CAA511229A21A000D7ECE5 /* SQLite.framework */ = {
+		2664CE41229A976400BE3A0A /* SQLite.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
 			path = SQLite.framework;
-			remoteRef = 26CAA510229A21A000D7ECE5 /* PBXContainerItemProxy */;
+			remoteRef = 2664CE40229A976400BE3A0A /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		26CAA513229A21A000D7ECE5 /* SQLiteTests iOS.xctest */ = {
+		2664CE43229A976400BE3A0A /* SQLiteTests iOS.xctest */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.cfbundle;
 			path = "SQLiteTests iOS.xctest";
-			remoteRef = 26CAA512229A21A000D7ECE5 /* PBXContainerItemProxy */;
+			remoteRef = 2664CE42229A976400BE3A0A /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		26CAA515229A21A000D7ECE5 /* SQLite.framework */ = {
+		2664CE45229A976400BE3A0A /* SQLite.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
 			path = SQLite.framework;
-			remoteRef = 26CAA514229A21A000D7ECE5 /* PBXContainerItemProxy */;
+			remoteRef = 2664CE44229A976400BE3A0A /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		26CAA517229A21A000D7ECE5 /* SQLiteTests Mac.xctest */ = {
+		2664CE47229A976400BE3A0A /* SQLiteTests Mac.xctest */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.cfbundle;
 			path = "SQLiteTests Mac.xctest";
-			remoteRef = 26CAA516229A21A000D7ECE5 /* PBXContainerItemProxy */;
+			remoteRef = 2664CE46229A976400BE3A0A /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		26CAA519229A21A000D7ECE5 /* SQLite.framework */ = {
+		2664CE49229A976400BE3A0A /* SQLite.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
 			path = SQLite.framework;
-			remoteRef = 26CAA518229A21A000D7ECE5 /* PBXContainerItemProxy */;
+			remoteRef = 2664CE48229A976400BE3A0A /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		26CAA51B229A21A000D7ECE5 /* SQLiteTests tvOS.xctest */ = {
+		2664CE4B229A976400BE3A0A /* SQLiteTests tvOS.xctest */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.cfbundle;
 			path = "SQLiteTests tvOS.xctest";
-			remoteRef = 26CAA51A229A21A000D7ECE5 /* PBXContainerItemProxy */;
+			remoteRef = 2664CE4A229A976400BE3A0A /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		26CAA51D229A21A000D7ECE5 /* SQLite.framework */ = {
+		2664CE4D229A976400BE3A0A /* SQLite.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
 			path = SQLite.framework;
-			remoteRef = 26CAA51C229A21A000D7ECE5 /* PBXContainerItemProxy */;
+			remoteRef = 2664CE4C229A976400BE3A0A /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		26CAA52B229A21B700D7ECE5 /* CryptoSwift.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = CryptoSwift.framework;
-			remoteRef = 26CAA52A229A21B700D7ECE5 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		26CAA52D229A21B700D7ECE5 /* CryptoSwift-TestHostApp.app */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.application;
-			path = "CryptoSwift-TestHostApp.app";
-			remoteRef = 26CAA52C229A21B700D7ECE5 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		26CAA52F229A21B700D7ECE5 /* Tests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = Tests.xctest;
-			remoteRef = 26CAA52E229A21B700D7ECE5 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		26CAA531229A21B700D7ECE5 /* TestsPerformance-Mac.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = "TestsPerformance-Mac.xctest";
-			remoteRef = 26CAA530229A21B700D7ECE5 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		26CAA533229A21B700D7ECE5 /* TestsPerformance-iOS.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = "TestsPerformance-iOS.xctest";
-			remoteRef = 26CAA532229A21B700D7ECE5 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		26CAA53E229A21C700D7ECE5 /* SCLAlertView.framework */ = {
+		2664CE58229A980300BE3A0A /* SCLAlertView.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
 			path = SCLAlertView.framework;
-			remoteRef = 26CAA53D229A21C700D7ECE5 /* PBXContainerItemProxy */;
+			remoteRef = 2664CE57229A980300BE3A0A /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		26CAA540229A21C700D7ECE5 /* SCLAlertViewTests.xctest */ = {
+		2664CE5A229A980300BE3A0A /* SCLAlertViewTests.xctest */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.cfbundle;
 			path = SCLAlertViewTests.xctest;
-			remoteRef = 26CAA53F229A21C700D7ECE5 /* PBXContainerItemProxy */;
+			remoteRef = 2664CE59229A980300BE3A0A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		2664CE68229A98F800BE3A0A /* CryptoSwift.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = CryptoSwift.framework;
+			remoteRef = 2664CE67229A98F800BE3A0A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		2664CE6A229A98F800BE3A0A /* CryptoSwift-TestHostApp.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = "CryptoSwift-TestHostApp.app";
+			remoteRef = 2664CE69229A98F800BE3A0A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		2664CE6C229A98F800BE3A0A /* Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = Tests.xctest;
+			remoteRef = 2664CE6B229A98F800BE3A0A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		2664CE6E229A98F800BE3A0A /* TestsPerformance-Mac.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "TestsPerformance-Mac.xctest";
+			remoteRef = 2664CE6D229A98F800BE3A0A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		2664CE70229A98F800BE3A0A /* TestsPerformance-iOS.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "TestsPerformance-iOS.xctest";
+			remoteRef = 2664CE6F229A98F800BE3A0A /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -1024,7 +1020,7 @@
 				2697B6DC21927870007D765F /* pingjia.png in Resources */,
 				2697B6DE21927876007D765F /* sezhi.png in Resources */,
 				2605998420FB235B0053208E /* Assets.xcassets in Resources */,
-				26CAA559229A517E00D7ECE5 /* pwd.png in Resources */,
+				26D47F83229A8E4E0068B209 /* pwd.png in Resources */,
 				2605998220FB235A0053208E /* Main.storyboard in Resources */,
 				2697B6DA2192786B007D765F /* bangzhu.png in Resources */,
 			);
@@ -1141,20 +1137,20 @@
 			target = 2605997820FB235A0053208E /* lx */;
 			targetProxy = 2605999920FB235B0053208E /* PBXContainerItemProxy */;
 		};
-		26CAA521229A21AC00D7ECE5 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "SQLite iOS";
-			targetProxy = 26CAA520229A21AC00D7ECE5 /* PBXContainerItemProxy */;
-		};
-		26CAA537229A21BE00D7ECE5 /* PBXTargetDependency */ = {
+		2664CE34229A968600BE3A0A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = CryptoSwift;
-			targetProxy = 26CAA536229A21BE00D7ECE5 /* PBXContainerItemProxy */;
+			targetProxy = 2664CE33229A968600BE3A0A /* PBXContainerItemProxy */;
 		};
-		26CAA544229A21D000D7ECE5 /* PBXTargetDependency */ = {
+		2664CE51229A977200BE3A0A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "SQLite iOS";
+			targetProxy = 2664CE50229A977200BE3A0A /* PBXContainerItemProxy */;
+		};
+		2664CE5E229A981800BE3A0A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SCLAlertView;
-			targetProxy = 26CAA543229A21D000D7ECE5 /* PBXContainerItemProxy */;
+			targetProxy = 2664CE5D229A981800BE3A0A /* PBXContainerItemProxy */;
 		};
 		26F9F013210D478D00154ACE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -1383,6 +1379,7 @@
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				SKIP_INSTALL = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -1437,6 +1434,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SKIP_INSTALL = NO;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				VALIDATE_PRODUCT = YES;
@@ -1461,6 +1459,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = wzl.lx;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -1484,6 +1483,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = wzl.lx;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -1574,6 +1574,7 @@
 				CODE_SIGN_ENTITLEMENTS = lximessage/lximessage.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				COPY_HEADERS_RUN_UNIFDEF = NO;
 				DEVELOPMENT_TEAM = G3RQV52MWY;
 				INFOPLIST_FILE = lximessage/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -1597,6 +1598,7 @@
 				CODE_SIGN_ENTITLEMENTS = lximessage/lximessage.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				COPY_HEADERS_RUN_UNIFDEF = NO;
 				DEVELOPMENT_TEAM = G3RQV52MWY;
 				INFOPLIST_FILE = lximessage/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (

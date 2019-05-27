@@ -7,8 +7,12 @@
 //
 
 import UIKit
+//import CryptoSwift
 import CryptoSwift
+//import SQLite
 import SQLite
+//import SCLAlertView
+//import SCLAlertView
 import SCLAlertView
 class ViewController: UIViewController,UIPickerViewDataSource,UIPickerViewDelegate {
     var dataqj=[[String]]();//存放数据
