@@ -112,12 +112,14 @@ class ViewController: UIViewController,UIPickerViewDataSource,UIPickerViewDelega
         if tag == 0 {
             //frame 为整个popview相对整个屏幕的位置 arrowMargin ：指定箭头距离右边距离
            // popMenu = SwiftPopMenu(frame:  CGRect(x: KSCREEN_WIDTH - 222, y: 111, width: 130, height: 100), arrowMargin: 12)
-              popMenu = SwiftPopMenu(frame:  CGRect(x: KSCREEN_WIDTH - 155, y: 51, width: 150, height: 140), arrowMargin: 12)
+             // popMenu = SwiftPopMenu(frame:  CGRect(x: KSCREEN_WIDTH - 155, y: 51, width: 150, height: 140), arrowMargin: 12)
+             popMenu = SwiftPopMenu(frame:  CGRect(x: KSCREEN_WIDTH - 155, y: 51, width: 150, height: 170), arrowMargin: 12)
             
             
         }else{
             //frame 为整个popview相对整个屏幕的位置 arrowMargin ：指定箭头距离右边距离
-            popMenu = SwiftPopMenu(frame:  CGRect(x: KSCREEN_WIDTH - 155, y: 51, width: 150, height: 140), arrowMargin: 12)
+            //popMenu = SwiftPopMenu(frame:  CGRect(x: KSCREEN_WIDTH - 155, y: 51, width: 150, height: 140), arrowMargin: 12)
+            popMenu = SwiftPopMenu(frame:  CGRect(x: KSCREEN_WIDTH - 155, y: 51, width: 150, height: 170), arrowMargin: 12)
             
             
         }
@@ -125,12 +127,20 @@ class ViewController: UIViewController,UIPickerViewDataSource,UIPickerViewDelega
         var textstr2="";
         var textstr3="";
         var textstr4="";
+        var textstr5="";
+        var error1="";
+        var error2="";
+        var wen="";
         if(getCurrentLanguage()=="cn")//如果是中文则显示中文否则全显示英文
         {
             textstr1="设置密码";
             textstr2="帮助说明";
             textstr3="评价答疑";
             textstr4="超级密码";
+            textstr5="安全通话";
+            wen="温馨提示";
+            error1="请先在输入框输入手机号码";
+            error2="手机号码格式错误";
             
         }
         else
@@ -139,14 +149,18 @@ class ViewController: UIViewController,UIPickerViewDataSource,UIPickerViewDelega
             textstr2="Help";
             textstr3="Answers";
             textstr4="Supper";
-            
+            textstr5="Secure call";
+            wen="Tips";
+            error1="Please enter your mobile phone number in the input box first";
+            error2="Mobile phone number is in the wrong format";
         }
         
         
         popMenu.popData = [(icon:"sezhi",title:textstr1),
                            (icon:"bangzhu",title:textstr2),
                            (icon:"pingjia",title:textstr3),
-                           (icon:"pwd",title:textstr4)]
+                           (icon:"pwd",title:textstr4),
+        (icon:"tel",title:textstr5)]
         //点击菜单
         popMenu.didSelectMenuBlock = { [weak self](index:Int)->Void in
             self?.popMenu.dismiss()
@@ -193,12 +207,55 @@ class ViewController: UIViewController,UIPickerViewDataSource,UIPickerViewDelega
                 self?.setSupperPwd();
              
             }
-            
+            if (index==4) {
+                if(self!.nr!.text=="")
+                {
+                    //错误提示框
+                    SCLAlertView().showError(error1, subTitle: wen)
+                    return;
+                }
+                if(self?.isTelNumber(num: self!.nr!.text as! NSString)==false)
+                {
+                    //错误提示框
+                    SCLAlertView().showError(error2, subTitle: wen)
+                    return;
+                }
+               // UIApplication.shared.openURL(URL(string: "tel://15916301694")!);
+                UIApplication.shared.openURL(URL(string: "tel://"+self!.nr.text)!);
+                
+            }
             
         }
         popMenu.show()
         tag += 1
     }
+    //验证手机号码
+    func isTelNumber(num:NSString)->Bool
+    {
+        var mobile = "^1(3[0-9]|5[0-35-9]|8[025-9])\\d{8}$"
+        var  CM = "^1(34[0-8]|(3[5-9]|5[017-9]|8[278])\\d)\\d{7}$"
+        var  CU = "^1(3[0-2]|5[256]|8[56])\\d{8}$"
+        var  CT = "^1((33|53|8[09])[0-9]|349)\\d{7}$"
+        var regextestmobile = NSPredicate(format: "SELF MATCHES %@",mobile)
+        var regextestcm = NSPredicate(format: "SELF MATCHES %@",CM )
+        var regextestcu = NSPredicate(format: "SELF MATCHES %@" ,CU)
+        var regextestct = NSPredicate(format: "SELF MATCHES %@" ,CT)
+        if ((regextestmobile.evaluate(with: num) == true)
+            || (regextestcm.evaluate(with: num)  == true)
+            || (regextestct.evaluate(with: num) == true)
+            || (regextestcu.evaluate(with: num) == true))
+        {
+            return true
+        }
+        else
+        {
+            return false
+        }
+    }
+    
+
+    
+    
     //添加超级密码
     func setSupperPwd() -> Void {
         var textstr1="";//第一个输入框

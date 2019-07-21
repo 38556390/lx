@@ -64,6 +64,7 @@
 		26C34E89229EC34500534742 /* CryptoSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 26C34E56229EC30600534742 /* CryptoSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		26C34E8C229EC35200534742 /* CryptoSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26C34E56229EC30600534742 /* CryptoSwift.framework */; };
 		26C34E8D229EC35C00534742 /* SQLite.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26C34E6A229EC30D00534742 /* SQLite.framework */; };
+		26CB061622E3EDA800AF35A2 /* tel.png in Resources */ = {isa = PBXBuildFile; fileRef = 26CB061522E3EDA800AF35A2 /* tel.png */; };
 		26D47F83229A8E4E0068B209 /* pwd.png in Resources */ = {isa = PBXBuildFile; fileRef = 26D47F82229A8E4E0068B209 /* pwd.png */; };
 		26F9F008210D478900154ACE /* Messages.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26F9F007210D478900154ACE /* Messages.framework */; };
 		26F9F00B210D478900154ACE /* MessagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26F9F00A210D478900154ACE /* MessagesViewController.swift */; };
@@ -432,6 +433,7 @@
 		26C34E4D229EC30600534742 /* CryptoSwift.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = CryptoSwift.xcodeproj; path = "../CryptoSwift-master/CryptoSwift.xcodeproj"; sourceTree = "<group>"; };
 		26C34E5F229EC30C00534742 /* SQLite.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SQLite.xcodeproj; path = "../SQLite.swift-master/SQLite.xcodeproj"; sourceTree = "<group>"; };
 		26C34E77229EC31B00534742 /* SCLAlertView.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SCLAlertView.xcodeproj; path = "../SCLAlertView-Swift-master/SCLAlertView.xcodeproj"; sourceTree = "<group>"; };
+		26CB061522E3EDA800AF35A2 /* tel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tel.png; path = ../../tel.png; sourceTree = "<group>"; };
 		26D47F82229A8E4E0068B209 /* pwd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pwd.png; path = ../../../../pwd.png; sourceTree = "<group>"; };
 		26F9F005210D478900154ACE /* lximessage.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = lximessage.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		26F9F007210D478900154ACE /* Messages.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Messages.framework; path = System/Library/Frameworks/Messages.framework; sourceTree = SDKROOT; };
@@ -510,6 +512,7 @@
 		2605997B20FB235A0053208E /* lx */ = {
 			isa = PBXGroup;
 			children = (
+				26CB061522E3EDA800AF35A2 /* tel.png */,
 				26D47F82229A8E4E0068B209 /* pwd.png */,
 				2697B6DD21927876007D765F /* sezhi.png */,
 				2697B6DB21927870007D765F /* pingjia.png */,
@@ -939,6 +942,7 @@
 				2697B6DE21927876007D765F /* sezhi.png in Resources */,
 				2605998420FB235B0053208E /* Assets.xcassets in Resources */,
 				26D47F83229A8E4E0068B209 /* pwd.png in Resources */,
+				26CB061622E3EDA800AF35A2 /* tel.png in Resources */,
 				2605998220FB235A0053208E /* Main.storyboard in Resources */,
 				2697B6DA2192786B007D765F /* bangzhu.png in Resources */,
 			);
