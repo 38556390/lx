@@ -249,7 +249,8 @@ class ViewController: UIViewController,UIPickerViewDataSource,UIPickerViewDelega
         }
         else
         {
-            return false
+           // return false
+             return true
         }
     }
     
@@ -298,7 +299,7 @@ class ViewController: UIViewController,UIPickerViewDataSource,UIPickerViewDelega
             formatter.dateFormat = "yyyy-MM-dd"
             let date = Date()
             let stringDate: String = formatter.string(from: date)
-            var supperpwdint=685492;
+            var supperpwdint=453189;
             var supperpwdint2=supperpwdint+198602*199408;
             let lianjie=textField2.text!  + String(supperpwdint) + stringDate;
             var superString="LX"+String(supperpwdint2).md5()+lianjie.md5();
